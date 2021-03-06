@@ -39,7 +39,7 @@ class CardPage extends StatelessWidget {
           ListTile(
             leading: Icon(
               Icons.photo_album, 
-              color: Colors.purple[900]
+              color: Colors.blue,
             ),
             title: Text('Titulo de targeta'),
             subtitle: Text(' Aqui escribo un texto largo lorem adsgas adsdsh  fvjh dfhvsd csdcghvr tdy b rdrjhvsdb vsdh bsrvh sdfd'),
@@ -68,7 +68,7 @@ class CardPage extends StatelessWidget {
         children: <Widget>[
           FadeInImage(
             image: NetworkImage(
-              'https://q-xx.bstatic.com/images/hotel/max1024x768/224/224447518.jpg'
+              'https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/ac/b6.jpg'
             ),
             placeholder: AssetImage('assets/jar-loading.gif'),
             fadeInDuration: Duration(milliseconds: 200),
@@ -77,7 +77,7 @@ class CardPage extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.all(10.0),
-            child: Text('Un texto cualquiera'),
+            child: Text('Un texto cualquiera sobre la imagen'),
           ),
         ],
       ),
